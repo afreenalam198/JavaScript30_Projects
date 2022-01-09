@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="./stylesheet.css">
+        
+        <title>Drum Kit</title>
+    </head>
+
+    <body>
+        
+        <header>Drum Kit</header>
+
+        <main>
+
+            <div>
+                <!--loading different images for different screen resolutions-->
+                <img src="./assets/images/medium.svg" 
+                    srcset="./assets/images/medium.svg 600w, ./assets/images/small.svg 350w, ./assets/images/large.svg 1050w" 
+                    sizes="(min-width: 1550px) 1050px, 
+                            (min-width: 600px) 600px,
+                            350px"
+                    alt="Drum Kit image"
+                >
+            </div>
+            
+            <div class="keyboard_keys_container">
+
+                <div class="key" data-key="65">
+                    <kbd>A</kbd>
+                    <span class="sound_type_name">Ride</span>
+                </div>
+
+                <div class="key" data-key="71">
+                    <kbd>G</kbd>
+                    <span class="sound_type_name">Floor Tom</span>
+                </div>
+
+                <div class="key" data-key="84">
+                    <kbd>T</kbd>
+                    <span class="sound_type_name">Tom-Tom</span>
+                </div>
+
+                <div class="key" data-key="75">
+                    <kbd>K</kbd>
+                    <span class="sound_type_name">Kick</span>
+                </div>
+
+                <div class="key" data-key="83">
+                    <kbd>S</kbd>
+                    <span class="sound_type_name">Snare</span>
+                </div>
+
+                <div class="key" data-key="72">
+                    <kbd>H</kbd>
+                    <span class="sound_type_name">Hi-hat</span>
+                </div>
+
+            </div>
+
+            <!--using data- attribute to hook up a particular keyborad stroke with a particular sound-->
+
+            <audio data-key="65" src="./assets/sounds/ride.wav"></audio>
+            <audio data-key="71" src="./assets/sounds/floor-tom.wav"></audio>
+            <audio data-key="84" src="./assets/sounds/tom-tom.wav"></audio>
+            <audio data-key="75" src="./assets/sounds/kick.wav"></audio>
+            <audio data-key="83" src="./assets/sounds/snare.wav"></audio>
+            <audio data-key="72" src="./assets/sounds/hihat.wav"></audio>
+
+        </main>
+
+        <script src="./script.js"></script>
+        
+    </body>
+</html>
