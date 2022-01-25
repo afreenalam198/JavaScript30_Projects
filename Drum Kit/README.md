@@ -10,3 +10,7 @@ Technologies used in this project are HTML, CSS and vanilla Javascript
 
 - Live Site URL: [Live Site URL] (https://drum-kit-javascript30.netlify.app/)
 
+## Screenshot
+
+![](./images/screenshot.PNG)
+
