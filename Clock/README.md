@@ -12,7 +12,7 @@ Technologies used in this project are HTML, CSS and vanilla JavaScript
 
 ## Link
 
-- [Live Site URL](https://drum-kit-javascript30.netlify.app/)
+- [Live Site URL](https://clock-javascript30.netlify.app/)
 
 ## Screenshot
 
