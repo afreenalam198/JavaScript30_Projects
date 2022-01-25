@@ -16,5 +16,5 @@ Technologies used in this project are HTML, CSS and vanilla Javascript
 
 ## Screenshot
 
-![](./assets/designfiles/screenshot.PNG)
+![](./assets/design-files/screenshot.PNG)
 
