@@ -1,6 +1,6 @@
 # Drum Kit
 
-This is the first project from the JavaScript30: 30 Day Vanilla JS Challenge
+This is the 1<sup>st</sup> project from the JavaScript30: 30 Day Vanilla JS Challenge
 
 ## Functionality
 
@@ -8,7 +8,7 @@ Here, when a user presses a particular keyboard key, a particular part of the dr
 
 ## Technologies Used
 
-Technologies used in this project are HTML, CSS and vanilla Javascript
+Technologies used in this project are HTML, CSS and vanilla JavaScript
 
 ## Link
 
